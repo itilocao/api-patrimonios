@@ -65,6 +65,6 @@ User.prototype.passwordIsValid = function (password, password_hash) {
   return bcrypt.compare(password.toString(), password_hash);
 };
 // update tables
-// User.sync();
+User.sync();
 
 module.exports = User;

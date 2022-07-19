@@ -3,4 +3,5 @@
 # Requisitos
 
 - Ter o Mysql
-- Configurar o .env
+- Configurar o .env.
+.......................

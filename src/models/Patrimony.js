@@ -84,6 +84,6 @@ User.hasMany(Patrimony, {
 Patrimony.belongsTo(User);
 
 // update tables
-// Patrimony.sync();
+Patrimony.sync();
 
 module.exports = Patrimony;
